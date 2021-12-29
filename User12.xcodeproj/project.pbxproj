@@ -13,6 +13,7 @@
 		14E53250277C890B00C124D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E5324E277C890B00C124D6 /* Main.storyboard */; };
 		14E53252277C890C00C124D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E53251277C890C00C124D6 /* Assets.xcassets */; };
 		14E53255277C890C00C124D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E53253277C890C00C124D6 /* LaunchScreen.storyboard */; };
+		14E5325E277C893D00C124D6 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E5325D277C893D00C124D6 /* testVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		14E53251277C890C00C124D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14E53254277C890C00C124D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E53256277C890C00C124D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E5325D277C893D00C124D6 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				14E53248277C890B00C124D6 /* AppDelegate.swift */,
 				14E5324A277C890B00C124D6 /* SceneDelegate.swift */,
 				14E5324C277C890B00C124D6 /* ViewController.swift */,
+				14E5325D277C893D00C124D6 /* testVC.swift */,
 				14E5324E277C890B00C124D6 /* Main.storyboard */,
 				14E53251277C890C00C124D6 /* Assets.xcassets */,
 				14E53253277C890C00C124D6 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E5325E277C893D00C124D6 /* testVC.swift in Sources */,
 				14E5324D277C890B00C124D6 /* ViewController.swift in Sources */,
 				14E53249277C890B00C124D6 /* AppDelegate.swift in Sources */,
 				14E5324B277C890B00C124D6 /* SceneDelegate.swift in Sources */,
