@@ -15,5 +15,15 @@ class testVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    func test(){
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
+        self.view.addGestureRecognizer(tap)
+    }
+    
+    @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
+        // handling code
+    }
 
 }
